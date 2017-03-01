@@ -1,8 +1,9 @@
-@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Abel);
-.sora img {
+.header {
+  background: url(../photo.jpg);
+  background-size: cover;
   width: 100%;
-  　height: 500px; }
+  height: 500px; }
 
 .head1 {
   text-align: center; }
@@ -35,6 +36,9 @@ footer {
   .box {
     float: none;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+
+  .header {
+    height: 250px; } }
 
 /*# sourceMappingURL=style.css.map */
