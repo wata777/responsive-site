@@ -1,9 +1,13 @@
 @import "compass";
 @import url(https://fonts.googleapis.com/css?family=Abel);
 
+*{
+   margin : 0;
+   padding : 0;
+}
 
 
-.header {
+header {
     background: url(../photo.jpg);
     background-size: cover;
     width: 100%;
@@ -54,7 +58,7 @@ footer
      margin-left: auto;
   margin-right: auto;
  }
-.header {
+header{
      height: 250px;
 }
 }
